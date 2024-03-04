@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image links</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius:10px;
+        }
+       .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+       }
+       .menu {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="home">
+    <h2>Home</h2>
+    <p>Welcome to the 21st century. Each and every day technology shapes our lives.<br>
+    Example of technology is virtual reality.
+    </p>
+    <a href="https://en.wikipedia.org/wiki/Virtual_reality" target="_blank">
+        <img src="images/virtualreality.jpg" alt="virtual reality">
+    </a>
+</div>
+    <h2>Gallery</h2>
+    <p>This is a gallery of nature images.</p>
+    <div class="gallery">
+        <a href="https://example.com/nature1" target="_blank"><img src="images/nature1.jpg" alt="A river flowing through mountains."></a>
+        <a href="https://example.com/nature2" target="_blank"><img src="/images/nature2.jpg" alt="A mountain peak."></a>
+     <a href="https://example.com/nature3" target="_blank"><img src="images/nature3.jpg" alt="A forest."></a>
+    </div>
+    <div class="menu">
+     <h2>Menu</h2>
+     <p>This is a list of food items. Click the relevant food item to view an image.</p>
+     <ul>
+        <li><a href="images/spaghetti.jpg">Spaghetti</a></li>
+        <li><a href="images/steak.jpg">Steak</a></li>
+        <li><a href="images/burger.jpg">burger</a></li>
+     </ul>
+  </div>
+</body>
+</html>
